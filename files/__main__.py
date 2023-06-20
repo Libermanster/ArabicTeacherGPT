@@ -8,8 +8,9 @@ import T2T_util
 
 
 def main():
-    print("Bot said: Hi, I am a bot. What can I do for you?")
-    T2S_util.play_text("Hi, I am a bot. What can I do for you?")
+    print("HEY IM A LANGUAGE BOT")
+    T2S_util.play_text("HEY IM A LANGUAGE BOT", "en")
+    T2S_util.play_text("HEY IM A LANGUAGE BOT", "ar")
     #while loop that continues to listen to the user until the user says bye
     #chat_ids empty list with two empty elements
     chat_ids = ["","",0]

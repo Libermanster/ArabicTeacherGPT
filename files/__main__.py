@@ -1,13 +1,29 @@
-#use S2T_util.py    # for speech to text
+#this is a robot that can talk to the user in english and arabic
+#the robot can talk about any subject that the user wants to talk about
+#its get prompet from the user in english and respond in english and arabic
+
 
 import S2T_util
 import T2S_util
 import T2T_util
 
-
-
-
 def main():
+    #robot started message and explain how to use the robot
+    #create a history for the chat
+    #get the subject that the user wants to talk about
+    #start a loop that continues to listen to the user until the user says bye
+    #get the user input
+    #if the user input is bye then break the loop
+    #else get the response from the bot
+        #send the user input and the history to the bot through content handler
+    #print the response
+    #play the response in english and the arabic
+
+
+
+
+
+""" def main():
     print("HEY IM A LANGUAGE BOT")
     T2S_util.play_text("HEY IM A LANGUAGE BOT", "en")
     T2S_util.play_text("HEY IM A LANGUAGE BOT", "ar")
@@ -25,7 +41,7 @@ def main():
             #response = T2T_util.get_singal_response(text)
             #printing the response in formated way
             print("Bot said: {}".format(response))
-            T2S_util.play_text(response)
+            T2S_util.play_text(response) """
 
 
 
